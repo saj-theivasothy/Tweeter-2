@@ -3,7 +3,7 @@ import "./TweetForm.css"
 
 export const TweetForm = () => {
   return (
-    <section class="new-tweet" id="new-tweet">
+    <section className="new-tweet" id="new-tweet">
       <div id="new-tweet-error">
         <span>&#9888</span>
         <span id="new-tweet-error-msg"></span>
@@ -17,7 +17,7 @@ export const TweetForm = () => {
         </button>
         <output
           name="counter"
-          class="new-tweet-counter"
+          className="new-tweet-counter"
           id="counter"
           for="new-tweet-text"
         >

@@ -1,0 +1,74 @@
+.new-tweet {
+  position: relative;
+  top: 10px;
+  height: 100%;
+  display: none;
+}
+.new-tweet div {
+  display: none;
+  position: relative;
+  font-size: 20px;
+  color: #ff0000;
+  width: fit-content;
+  text-align: center;
+  padding: 2px 10px 2px 10px;
+  border: 2px solid #ff0000;
+}
+.new-tweet form {
+  position: relative;
+  background-color: #f5f1ed;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 150px;
+  margin: 0 auto;
+}
+.new-tweet form label {
+  position: relative;
+  font-weight: bold;
+}
+.new-tweet form textarea[name=text] {
+  width: 100%;
+  border: none;
+  border-bottom: 4px solid #545149;
+  background-color: #f5f1ed;
+  color: #202020;
+  resize: none;
+  height: 30px;
+  position: relative;
+  font-size: 20px;
+}
+.new-tweet form button[type=submit] {
+  position: absolute;
+  background-color: #4056a1;
+  font-family: absolute;
+  color: #ffffff;
+  padding: 3px 10px 3px 10px;
+  bottom: 45px;
+  left: 0px;
+  margin-top: 20px;
+}
+.new-tweet form output[name=counter] {
+  font-family: absolute;
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+}
+.new-tweet form .new-tweet-negative-counter {
+  color: #ff0000;
+}
+
+@media (min-width: 768px) {
+  .new-tweet {
+    top: 40px;
+  }
+  .new-tweet form textarea[name=text] {
+    height: 50px;
+  }
+  .new-tweet form button[type=submit] {
+    bottom: 25px;
+  }
+  .new-tweet form output[name=counter] {
+    bottom: 40px;
+  }
+}
+
+/*# sourceMappingURL=new-tweet.css.map */

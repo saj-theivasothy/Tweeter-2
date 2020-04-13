@@ -5,6 +5,7 @@
   top: -10px;
   margin-bottom: 20px;
   margin-top: 20px;
+  
 }
 
 .tweet:hover {
@@ -78,7 +79,7 @@
 @media (min-width: 768px) {
   .tweet {
     height: 250px;
-    top: 19px;
+    top: 20px;
   }
 
   .tweet header img {

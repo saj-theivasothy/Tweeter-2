@@ -3,16 +3,19 @@ import "./App.css";
 import { Navigation } from "./components/Navigation";
 import { Profile } from "./components/Profile";
 import { TweetForm } from "./components/TweetForm";
-import { Tweet } from "./components/Tweet";
+import { TweetList } from "./components/TweetList";
+import tweets from './initial-tweets.json';
 
 function App() {
   return (
     <div className="App">
       <Navigation />
       <Profile />
-      <main class="container">
+      <main className="container">
         <TweetForm />
-        <Tweet />
+        <section className="tweets-container">
+            <TweetList tweets={tweets} />
+        </section>
       </main>
     </div>
   );
